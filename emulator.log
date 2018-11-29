@@ -1,0 +1,56 @@
+Starting Mednafen 0.9.48
+ Build information:
+   Compiled with gcc 6.4.1 20170727 (Red Hat 6.4.1-1)
+   Compiled against zlib 1.2.8, running with zlib 1.2.8(flags=0x000000a9)
+   Compiled against SDL 1.2.15, running with SDL 1.2.15
+   Running with libsndfile-1.0.28
+ Base directory: /home/zipper/.mednafen
+ Emulation modules: nes snes gb gba pce lynx md pcfx ngp psx ss ssfplay vb wswan sms gg snes_faust pce_fast demo cdplay
+ Loading settings from "/home/zipper/.mednafen/mednafen-09x.cfg"...
+  Loaded 14 valid settings and 0 unknown settings.
+ Initializing joysticks...
+WARNING: Failed to open event device "/dev/input/event7": Permission denied --- !!!!! BASE JOYSTICK FUNCTIONALITY WILL BE AVAILABLE, BUT FORCE-FEEDBACK(E.G. RUMBLE) WILL BE UNAVAILABLE, AND THE CALCULATED JOYSTICK ID WILL BE DIFFERENT. !!!!!
+  Joystick 0 - ST LIS3LV02DL Accelerometer - Unique ID: 2ed82eb4a2034866
+ Loading /home/zipper/Desktop/GT/2110/hw10/hw10.gba...
+  Applying IPS file "/home/zipper/Desktop/GT/2110/hw10/hw10.gba.ips"...
+   Failed: Error opening file "/home/zipper/Desktop/GT/2110/hw10/hw10.gba.ips": No such file or directory
+  Using module: gba(GameBoy Advance)
+   Loading override settings from "/home/zipper/.mednafen/gba.cfg"...
+    Failed: Error opening file "/home/zipper/.mednafen/gba.cfg": No such file or directory
+   Loading override settings from "/home/zipper/.mednafen/pgconfig/hw10.gba.cfg"...
+    Failed: Error opening file "/home/zipper/.mednafen/pgconfig/hw10.gba.cfg": No such file or directory
+
+   ROM:       1319KiB
+   ROM CRC32: 0x81ba0daa
+   ROM MD5:   0x32ca24af4a50be6320a516b92833bcdb
+
+  Loading custom palette from "/home/zipper/.mednafen/palettes/gba.pal"...
+   Error: Error opening file "/home/zipper/.mednafen/palettes/gba.pal": No such file or directory
+
+  Loading cheats from /home/zipper/.mednafen/cheats/gba.cht...
+   Error opening file "/home/zipper/.mednafen/cheats/gba.cht": No such file or directory
+
+ Initializing sound...
+  Using "ALSA" audio driver with SexyAL's default device selection.
+   Format: 16 bits(signed, 2 bytes, little-endian)
+   Rate: 48000
+   Channels: 2
+   Buffer size: 1560 sample frames(32.500000 ms)
+   Latency: 1560 sample frames(32.500000 ms)
+   Period size: 60 sample frames(1.250000 ms)
+ Initializing video...
+  Video Driver: OpenGL
+  Video Mode: 480 x 320 x 32 bpp
+  Shader: none
+  Fullscreen: No
+  Special Scaler: None
+  Scanlines: Off
+  Destination Rectangle: X=0, Y=0, W=480, H=320
+  OpenGL Implementation: Intel Open Source Technology Center Mesa DRI Intel(R) HD Graphics 520 (Skylake GT2)  3.0 Mesa 17.0.5
+  Checking extensions:
+   GL_ARB_texture_non_power_of_two found.
+   GL_ARB_sync found.
+  Using non-power-of-2 sized textures.
+  Checking maximum texture size...
+   Apparently it is at least: 16384 x 16384
+  Using GL_BGRA, GL_UNSIGNED_INT_8_8_8_8_REV for texture source data.
